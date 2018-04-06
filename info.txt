@@ -1,4 +1,0 @@
-Database Config
-DATABASE NAME = renegades
-DATABASE USER = renegade
-DATABSE PASSWORD = renegade-db-191187
