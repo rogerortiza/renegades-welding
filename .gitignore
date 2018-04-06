@@ -24,6 +24,7 @@ var/
 
 #keys
 renegadeswelding.pem
+info.txt
 
 # Installer logs
 pip-log.txt
