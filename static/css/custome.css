@@ -1,0 +1,13 @@
+@font-face {
+    font-family: renegades-regular;
+    src: url(../fonts/renegades.woff);
+}
+
+@font-face {
+    font-family: renegades-rounded;
+    src: url(../fonts/renegades-rounded.woff);
+}
+
+.hero {
+  font-family: renegades-regular !important;
+}
