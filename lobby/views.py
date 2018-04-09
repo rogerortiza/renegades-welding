@@ -6,3 +6,6 @@ def home(request):
 
 def contact_us(request):
     return render(request, 'contact-us.html', {})
+
+def folio(request):
+    return render(request, 'folio.html', {})
