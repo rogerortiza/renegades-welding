@@ -40,17 +40,13 @@
 	            <a href="{% url 'home' %}" class="contains-sub-menu">Home</a>
 	          </li>
 	          <li>
-	            <a href="{% url 'folio' %}" class="contains-sub-menu">Folio</a>
+	            <a href="{% url 'folio' %}" class="contains-sub-menu">Gallery</a>
 	          </li>
+						<li>
+						 <a href="{% url 'folio' %}" class="contains-sub-menu">Pricing & Covarage Map</a>
+					 </li>
 	          <li>
 	            <a href="{% url 'contact' %}">Contact us</a>
-	          </li>
-	        </ul>
-	      </nav>
-	      <nav class="side-navigation nav-block">
-	        <ul>
-	          <li>
-	            <a href="#" class="contains-sub-menu cart">Cart <span class="cart-indication"><span class="badge">3</span></span></a>
 	          </li>
 	        </ul>
 	      </nav>
@@ -94,7 +90,10 @@
 								<a href="{% url 'home' %}">Home</a>
 							</li>
 							<li>
-								<a href="{% url 'folio' %}">Folio</a>
+								<a href="{% url 'folio' %}">Gallery</a>
+							</li>
+							<li>
+								<a href="{% url 'home' %}">Pricing & Covarage Map</a>
 							</li>
 							<li class="contains-mega-sub-menu">
 								<a href="{% url 'contact' %}">Contact us</a>
